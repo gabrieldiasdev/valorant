@@ -1,0 +1,69 @@
+@import url('app.css');
+@import url('header.css');
+@import url('agent-cards.css');
+@import url('slider.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1080px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media (max-width: 720px) {
+    html {
+        font-size: 87.5%;
+    }
+}
+
+@font-face {
+    font-family: 'Druck Wide Bold';
+    src: url('../font/Druk-Wide-Bold.ttf') format('truetype');
+    font-display: swap;
+}
+
+:root {
+
+    /* Cores */
+
+    --red-light: #FF4656;
+
+    /* Cores neutras */
+
+    --white: #FFFFFF;
+    --dark: #1F2326;
+
+    /* Tipografia */
+
+    --font-opensans: 'Open Sans', sans-serif;
+    --font-drukwide: 'Druck Wide Bold', sans-serif;
+
+    --linear: linear-gradient(154.23deg, #0F3A7B -58.45%, #0CFFFF 374.49%);;
+}
+
+
+body,
+button,
+textarea,
+input {
+    color: var(--primary);
+    font: 400 1rem "Montserrat", sans-serif;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: 0;
+}
+
+button:hover {
+    cursor: pointer;
+}

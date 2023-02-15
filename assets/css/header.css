@@ -1,0 +1,34 @@
+.main-header{
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding-right: 151px;
+
+    margin-bottom: 210px;
+}
+
+.main-header > img{
+    transition: 1s ease transform;
+}
+
+.main-header > img:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.main-header h5{
+    font-family: var(--font-opensans);
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.063rem;
+    color: var(--white);
+}
+
+@media screen and (max-height: 1079px){
+    .main-header{
+        margin-bottom: 100px;
+    }
+}
