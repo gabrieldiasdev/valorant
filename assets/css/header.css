@@ -10,11 +10,11 @@
     margin-bottom: 210px;
 }
 
-.main-header > img{
+.main-header > a:first-child {
     transition: 1s ease transform;
 }
 
-.main-header > img:hover{
+.main-header > a:first-child:hover{
     cursor: pointer;
     transform: scale(1.2);
 }
