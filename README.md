@@ -12,7 +12,7 @@ Repositório criado para armazenar o desafio 07 proposto por Iuri Silva criador 
 ## 💡  Info
 
 
-O projeto contém uma interface moderna e dinâmica para apresentar os agentes do jogo Valorant por meio de uma api pública ! <a href="https://valorant-api.com;" target="_blank">Link da api</a>
+O projeto contém uma interface moderna e dinâmica para apresentar os agentes do jogo Valorant por meio de uma api pública ! <a href="https://valorant-api.com/" target="_blank">Link da api</a>
 
 ## 💻 Tecnologias/Pacotes utilizados
 
